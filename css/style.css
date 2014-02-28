@@ -1,0 +1,207 @@
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	background: #e7eaf3;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+.wrapper {
+	width: 100%;
+	padding: 0 20px;
+}
+
+.container {
+	width: 850px;
+	margin: 0 auto;
+}
+
+.content {
+	border: 1px solid #cacad2;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 20px;
+	margin: 50px 0;
+	background: #ffffff;
+}
+
+.box1 {
+	background: #ddecff;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 100px 0;
+}
+
+.box2 {
+	height: 560px;
+	background: #c0d7e7 url("../img/back_box2.jpg") top center no-repeat;
+}
+
+.title {
+	font-size: 30px;
+	line-height: 35px;
+	letter-spacing: 1px;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.line1, .line2 {
+	width: 615px;
+	height: 2px;
+	background: #c0d7e7;
+	margin: 8px auto 0 auto;
+}
+
+.line2 {
+	width: 450px;
+}
+
+.share_box {
+	margin: 25px 0 30px 0;
+}
+
+.share_box a.btn {
+	display: block;
+	width: 420px;
+	font-size: 23px;
+	letter-spacing: 1px;
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border-right: 1px solid #4dad6e;
+	border-bottom: 3px solid #4dad6e;
+	background: #5bca85;
+	margin: 0 auto;
+	padding: 25px 0;
+}
+
+.share_box a.btn:hover {
+	background: #5ac27e;
+}
+
+.share_box a.btn:active {
+	text-decoration: none;
+	border-top: 3px solid #4dad6e;
+	border-left: 1px solid #4dad6e;
+	border-bottom: 0;
+	border-right: 0;
+}
+
+.rounds_house {
+	position: relative;
+	width: 100%;
+	height: 430px;
+}
+
+.one_r {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	border: 0 solid #3772b8;
+	background: #ffffff;
+	cursor: default;
+	z-index: 2;
+	overflow: hidden;
+	-moz-transition: 0.3s ease-out;
+	-o-transition: 0.3s ease-out;
+	-webkit-transition: 0.3s ease-out;
+	transition: 0.3s ease-out;
+	-webkit-transition-property: width, height, border;
+	-moz-transition-property: width, height, border;
+	-o-transition-property: width, height, border;
+	transition-property: width, height, border;
+}
+
+.one_r:hover {
+	width: 200px !important;
+	height: 200px !important;
+	border: 4px solid #3772b8;
+	z-index: 3 !important;
+}
+
+.one_r .name {
+	color: #3772b8 !important;
+	text-align: center;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.one_r:hover > .name {
+	font-size: 20px;
+	line-height: 18px;
+	padding: 3px 0 4px 0;
+}
+
+.one_r .icon {
+	text-align: center;
+	padding-top: 15%;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.one_r:hover > .icon {
+	padding-top: 8%;
+}
+
+.one_r .icon img {
+	width: 45%;
+}
+
+.one_r .more {
+	font-size: 0px;
+	color: #036eb4;
+	text-align: center;
+	line-height: 14px;
+	padding-top: 5px;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.one_r .more span {
+	font-size: 0px;
+	color: #036eb4;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.one_r:hover > .more {
+	font-size: 11px;
+}
+
+.one_r:hover > .more span {
+	font-size: 16px;
+	font-weight: bold;
+}
